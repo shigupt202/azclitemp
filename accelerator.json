@@ -7,12 +7,6 @@
     "functionapp"
   ],
   "inputs": {
-    "secrets" : [
-      {
-        "name": "AZURE_CREDENTIALS",
-        "description": "Enter your azure credentials (Output of az ad sp create-for-rbac --sdk-auth command)"
-      }
-    ],
     "placeHolders": [
       {
         "name": "RESOURCE_GROUP",
